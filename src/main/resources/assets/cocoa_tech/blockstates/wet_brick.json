@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "cocoa_tech:block/wet_brick",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "cocoa_tech:block/wet_brick",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "cocoa_tech:block/wet_brick"
+    },
+    "facing=west": {
+      "model": "cocoa_tech:block/wet_brick",
+      "y": 90
+    }
+  }
+}

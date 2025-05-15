@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ib.cocoa_tech.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "cocoa_tech.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
