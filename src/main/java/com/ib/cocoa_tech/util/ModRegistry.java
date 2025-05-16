@@ -7,7 +7,6 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -18,6 +17,9 @@ public class ModRegistry {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Main.MOD_ID);
 //item
     public static final DeferredItem<Item> COCOA_COG = ITEMS.registerSimpleItem("cocoa_cog");
+    public static final DeferredItem<Item> DIVISION_SIGILL = ITEMS.registerSimpleItem("division_sigill");
+    public static final DeferredItem<Item> UNSTABLE_STEEL = ITEMS.registerSimpleItem("unstable_steel");
+
 //block
     public static final DeferredBlock<Block> WET_BRICK = BLOCKS.register(
             "wet_brick",registryName ->new WetBrick(
