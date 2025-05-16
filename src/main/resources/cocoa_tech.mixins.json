@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "cocoa_tech.refmap.json",
   "mixins": [
+    "NoiseGeneratorSettingsMixin"
   ],
   "client": [
   ],
